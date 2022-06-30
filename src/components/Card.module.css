@@ -1,0 +1,15 @@
+.card {
+  background: white;
+  border-radius: 24px;
+  display: flex;
+  height: 511px;
+  width: 922px;
+}
+
+@media (max-width: 1040px) {
+  .card {
+    flex-direction: column;
+    height: 535px;
+    width: 328px;
+  }
+}
